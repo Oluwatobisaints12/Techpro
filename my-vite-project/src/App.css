@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+/* Rest of your styles */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+}
+.container{
+  display: flex;
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  background: #DBEADD;
+  color: #34574A;
+  height: 100vh;
+  width: 300px;
+}
+
+.top-section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 28px;
+}
+.bars{
+width: 46px;
+height: 51px;
+}
+.link{
+  display: flex;
+  color: #34574A;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background-color: lightcyan;
+  color: #34574A;
+  cursor: pointer;
+}
+.active{
+  background-color: aquamarine;
+  color: #34574A;
+}
+.icon, .link-text{
+  font-size: 20px;
+}
+.add-container{
+  border-radius: 32px;
+background: #C4DCD3;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 10px;
+}
+.btn-title{
+  color: #34574A;
+  font-family: 'Josefin Sans', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: block;
+}
+.btn-plus {
+
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+;
+}
+
+
+.btn-input{
+  width: 100%;
+}
+input{
+  width: 78%;
+  height: 25px;
+}
